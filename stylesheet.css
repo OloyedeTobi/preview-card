@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+	
+	font-size: 16px;
+	background-color: lightgray;
+	margin-top: 1%;
+}
+  
+
+  #container{
+  	display: flex;
+  	justify-content: center;
+  	align-items: : center;
+  	width: 80%;
+  	margin: auto;
+  	padding: 2.2em;
+  	max-height: 100vh;
+ 
+  	/*position: absolute;
+  	top: 15%;
+  	left: 25%;*/
+
+  	
+  	
+  }
+  img{
+  	margin-bottom: 3em;
+  }
+
+  @media only screen and (max-width: 800px){
+body{
+	margin: auto;
+}
+
+  	#container{
+
+display: block;
+position: absolute;
+left: 35%;
+margin:auto;
+margin-top: -12%;
+max-width: 50%;
+
+
+
+
+
+  	}
+  	.child1, .child2, .child3 {
+  		width: 100%;
+  		height: auto;
+  		padding: 30em;
+  		justify-content: right;
+  		padding-bottom: 10em;
+
+  	}
+
+  
+
+  } 
+  .child1:hover{
+  	transform: scale(1.07);
+  	border-radius: 20px 0px 0px 20px;
+  	box-shadow: 10px 0px 10px 10px rgba(0,0,0,0.3);
+  }
+  .child2:hover{
+  	transform: scale(1.07);
+  	/*border-radius: 20% 0% 0% 20%;*/
+  	box-shadow: 10px 0px 10px 10px rgba(0,0,0,0.3);
+  }
+  .child3:hover{
+  	transform: scale(1.07);
+  	border-radius: 0px 20px 20px 0px;
+  	box-shadow: 10px 0px 10px 10px rgba(0,0,0,0.3);
+  }
+
+.bt1{
+	color: #e38826;
+
+}
+.bt2{
+	color: #006970;
+}
+.bt3{
+	color: #004241;
+}
+
+.bt1:hover{
+	background:#e38826;
+	color: white;
+	border:1px solid white; 
+	border-radius: 20px;
+}
+.bt2:hover{
+	background:#006970 ;
+	color: white;
+	border:1px solid white; 
+	border-radius: 20px;
+}
+ 
+.bt3:hover{
+	background:#004241 ;
+	color: white;
+	border:1px solid white; 
+	border-radius: 20px;
+}
+  .child1{
+  	background-color: #e38826;
+  	padding: 3.6em;
+  	width: 30%;
+
+  }
+
+  .child2{
+  	background: #006970;
+  	padding: 3.6em;
+  	width: 30%;
+  }
+
+  .child3{
+  	padding: 3.6em;
+  	background-color: #004241;
+  	width: 30%;
+  	
+  }
+   h1{
+   	font-family: 'Alegreya SC', serif;
+   	text-transform: uppercase;
+   	font-size: 2em;
+   	margin-bottom: 2.5em;
+   	text-align: left;
+   }
+   p{
+   	
+
+   	line-height: 1em;
+   	padding: .8em;
+   	word-spacing: 1em;
+   	margin-bottom: 4.5em;
+   	
+
+   }
+
+   button{
+   	padding: .9em 1.2em;
+   	border-radius: 20px;
+   	color: #ffffff;
+   	text-align: center;
+   	border: none;
+
+   }
